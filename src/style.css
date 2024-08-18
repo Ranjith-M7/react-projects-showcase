@@ -377,3 +377,36 @@
   background-color: white;
   border-radius: 25px;
 }
+
+/*------------------------
+    Theme Switcher
+-------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.theme-switcher {
+  height: 100vh;
+}
+.theme-switcher h1 {
+  font-size: 22px;
+  padding: 1rem;
+}
+.theme-switcher button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.theme-switcher .quotes {
+  margin-top: 4rem;
+}
+.theme-switcher .quotes p {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  margin: 3.5rem 0;
+}
