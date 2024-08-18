@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-
 function HomePage() {
   // Array of project names and links
   const projects = [
@@ -21,9 +20,7 @@ function HomePage() {
       <div className="homepage" id="home">
         <div className="container">
           <div className="header d-flex justify-content-between align-items-center py-5">
-            <a href="#" className="title">
-              React Projects
-            </a>
+            <h1 className="title">React Projects</h1>
             <button>White Theme</button>
           </div>
 

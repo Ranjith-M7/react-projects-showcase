@@ -263,3 +263,45 @@
   padding: 10px 20px;
   font-size: 14px;
 }
+
+/*------------------------
+    Calculator styles
+-------------------------*/
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cal-container {
+  display: grid;
+  background-color: #191818;
+  color: rgb(255, 255, 255);
+  width: 280px;
+}
+.cal-container form {
+  grid-column: span 4;
+}
+.cal-container form input {
+  width: 100%;
+  height: 80px;
+  border: none;
+  outline: none;
+  text-align: right;
+  padding: 0 10px;
+  pointer-events: none;
+}
+.cal-container span {
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.13s ease;
+  user-select: none;
+}
+.cal-container .clr {
+  background-color: blueviolet;
+}
+.cal-container span:active {
+  background-color: blueviolet;
+}

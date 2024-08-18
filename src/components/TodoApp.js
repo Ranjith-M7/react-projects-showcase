@@ -25,7 +25,7 @@ function TodoApp() {
   const deleteTask = (id) => {
     setTodos(
       todos.filter((t) => {
-        return t.id != id;
+        return t.id !== id;
       })
     );
     toast.error("Task deleted successfully !");
