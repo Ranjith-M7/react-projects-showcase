@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 function HomePage() {
   // Array of project names and links
   const projects = [
@@ -14,7 +15,7 @@ function HomePage() {
     { name: "Theme Switcher", link: "/theme-switcher" },
     { name: "Toggle Search", link: "/toggle-search" },
   ];
-  
+
   return (
     <>
       <div className="homepage" id="home">
