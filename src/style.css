@@ -305,3 +305,35 @@
 .cal-container span:active {
   background-color: blueviolet;
 }
+
+/*------------------------
+    Counter app styles
+-------------------------*/
+.counter-app {
+  height: 100vh;
+  background-color: blueviolet;
+  font-family: sans-serif;
+}
+.counter-container {
+  padding: 20px;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+
+  text-align: center;
+  background-color: white;
+  h1 {
+    font-size: 4rem;
+  }
+}
+.counter-container .btns {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: blueviolet;
+  width: 80%;
+}
+
+.counter-container button {
+  border: none;
+  border-radius: 25px;
+}
