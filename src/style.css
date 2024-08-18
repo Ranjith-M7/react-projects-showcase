@@ -218,3 +218,49 @@
   background-color: white;
   color: blueviolet;
 }
+
+/*------------------------
+    Accordion styles
+-------------------------*/
+.accordion {
+  height: 100vh;
+  background-color: blueviolet;
+}
+.acc-container {
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  h1 {
+    color: white;
+    font-size: 20px;
+    border-left: 5px solid white;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+  }
+}
+.acc-container .list {
+  padding: 20px;
+
+  border: 1px solid white;
+}
+.acc-container .list .header {
+  color: white;
+  font-size: 16px;
+}
+.acc-container .list .header button {
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #363636;
+}
+.acc-container .list .content {
+  width: 95%;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.acc-container .list .content p {
+  padding: 10px 20px;
+  font-size: 14px;
+}
