@@ -337,3 +337,43 @@
   border: none;
   border-radius: 25px;
 }
+
+/*------------------------
+    Testimonial app styles
+-------------------------*/
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+.t-container {
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid white;
+}
+.testimonial {
+  text-align: center;
+  color: white;
+}
+.testimonial .quote {
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.testimonial .author {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.testimonial button {
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+}
