@@ -1,7 +1,3 @@
-/*------------------------
-    General styles 
--------------------------*/
-
 .title {
   text-decoration: none;
   font-size: 20px;
@@ -409,4 +405,15 @@
   font-size: 30px;
   font-style: italic;
   margin: 3.5rem 0;
+}
+
+/*------------------------
+    Toggle Search
+-------------------------*/
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
