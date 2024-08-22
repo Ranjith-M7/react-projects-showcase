@@ -23,7 +23,7 @@ function ToggleSearch() {
           <input
             type="text"
             placeholder="Search..."
-            className="border shadow p-2"
+
           />
         ) : (
           <i
